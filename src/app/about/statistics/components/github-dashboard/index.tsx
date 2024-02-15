@@ -10,7 +10,7 @@ import { Repos } from './cards/repos'
 import { Stars } from './cards/stars'
 import { Commits } from './cards/commits'
 import { ContributionCalendar } from './cards/contribution-calendar'
-import { LineGraph } from './cards/line-graph'
+// import { LineGraph } from './cards/line-graph'
 
 export function GithubDashboard() {
   return (
@@ -30,9 +30,9 @@ export function GithubDashboard() {
             <ContributionCalendar />
           </div>
 
-          <div className="col-span-4">
+          {/* <div className="col-span-4">
             <LineGraph />
-          </div>
+          </div> */}
         </div>
       </Suspense>
     </ErrorBoundary>
