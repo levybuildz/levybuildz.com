@@ -26,11 +26,11 @@ jobs:
         uses: tretuna/sync-branches@1.4.0
         with:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          FROM_BRANCH: "main"
-          TO_BRANCH: "dev"
-          PULL_REQUEST_TITLE: "chore(git): merge `main` into `dev`"
+          FROM_BRANCH: 'main'
+          TO_BRANCH: 'dev'
+          PULL_REQUEST_TITLE: 'chore(git): merge `main` into `dev`'
           CONTENT_COMPARISON: true
-          PULL_REQUEST_AUTO_MERGE_METHOD: "merge"
+          PULL_REQUEST_AUTO_MERGE_METHOD: 'merge'
 
   # merge-pr:
   #   runs-on: ubuntu-latest
@@ -45,11 +45,10 @@ jobs:
   #         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   #         PULL_REQUEST_NUMBER: ${{needs.create-sync-pr.outputs.PULL_REQUEST_NUMBER}}
   #       run: gh pr merge $PULL_REQUEST_NUMBER --merge
-add-automerge-label:
-  runs-on: ubuntu-latest
-  name: Add "automerge" label
-  needs: create-sync-pr
-  if: needs.create-sync-pr.outputs.PULL_REQUEST_NUMBER != ''
+  add-automerge-label:
+    runs-on: ubuntu-latest
+    name: Add "automerge" label
+    needs: create-sync-pr
 
     steps:
       - name: Checkout
