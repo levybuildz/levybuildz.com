@@ -19,8 +19,8 @@ export default function Page() {
       <Title text="Guestbook" />
       <div>
         <GiscusComments
-          category="Show and tell"
-          categoryId="MDE4OkRpc2N1c3Npb25DYXRlZ29yeTMyNzg0MzYw"
+          category="Guestbook"
+          categoryId="DIC_kwDOLTDd0s4CdQe1"
           reactionsEnabled="0"
           inputPosition="top"
           mapping="specific"
