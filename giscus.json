@@ -1,0 +1,15 @@
+{
+  "origins": [
+    "https://www.levybuildz.com",
+    "https://www.levybuildz.vercel.app/",
+    "https://www.levybuildz.vercel.app/",
+    "https://levybuildz.com",
+    "https://levybuildz.vercel.app/",
+    "https://levybuildz.vercel.app/"
+  ],
+  "originsRegex": [
+    "https://levybuildz-([A-z0-9]|-)*levybuildz\\.vercel\\.app",
+    "https://[0-9]+-levybuildz-levybuildzcom-[A-Za-z0-9]+\\.ws-[A-Za-z0-9]+\\.gitpod\\.io",
+    "http://localhost:[0-9]+"
+  ]
+}

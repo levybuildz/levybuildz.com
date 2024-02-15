@@ -1,0 +1,40 @@
+@tailwind base;
+
+@layer base {
+  body {
+    @apply bg-neutral-50 dark:bg-neutral-1000;
+    @apply font-sans text-neutral-900 dark:text-neutral-300;
+    @apply selection:bg-neutral-1000 selection:text-neutral-50 dark:selection:bg-neutral-50 dark:selection:text-neutral-1000;
+  }
+
+  /* Syntax Highlighting */
+  pre[data-theme='dark'] {
+    color-scheme: dark;
+  }
+
+  html.light {
+    pre[data-theme='dark'] {
+      display: none;
+    }
+
+    div[data-rehype-pretty-code-title=''][data-theme='dark'] {
+      display: none;
+    }
+    div[data-rehype-pretty-code-caption=''][data-theme='dark'] {
+      display: none;
+    }
+  }
+
+  html.dark {
+    pre[data-theme='light'] {
+      display: none;
+    }
+
+    div[data-rehype-pretty-code-title=''][data-theme='light'] {
+      display: none;
+    }
+    div[data-rehype-pretty-code-caption=''][data-theme='light'] {
+      display: none;
+    }
+  }
+}
