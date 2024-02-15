@@ -9,7 +9,7 @@ type Props = Omit<GiscusProps, 'repo' | 'repoId' | 'mapping' | 'theme'> & {
 }
 export function GiscusComments({
   category = 'Post Comments',
-  categoryId = 'DIC_kwDOEwnD6s4CZvWA',
+  categoryId = 'DIC_kwDOLTDd0s4CdQX1',
   reactionsEnabled = '1',
   inputPosition = 'bottom',
   mapping = 'og:title',
@@ -25,7 +25,7 @@ export function GiscusComments({
   return (
     <Giscus
       repo="levybuildz/levybuildz.com"
-      repoId="MDEwOlJlcG9zaXRvcnkzMTk0MDcwODI="
+      repoId="R_kgDOLTDd0g"
       mapping={mapping}
       emitMetadata="0"
       lang="en"
