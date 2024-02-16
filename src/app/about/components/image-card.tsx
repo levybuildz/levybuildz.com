@@ -13,11 +13,7 @@ export function ImageCard({ mobile = false }) {
       glarePosition="all"
       glareBorderRadius="1.5rem"
       glareMaxOpacity={0.4}
-      glareReverse
       glareEnable
-      trackOnWindow
-      gyroscope
-      tiltReverse
     >
       <Image
         src="https://github.com/levybuildz.png"
