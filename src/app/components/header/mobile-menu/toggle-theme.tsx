@@ -5,7 +5,7 @@ export function ToggleTheme() {
   const { setTheme, theme: currTheme } = useTheme()
 
   return (
-    <div className="flex flex-1 items-end justify-center pt-5">
+    <div className="flex justify-center pt-5">
       <div className="flex overflow-hidden rounded-xl bg-neutral-200/50 text-2xl dark:bg-neutral-1000/50">
         <button
           onClick={() => setTheme('light')}
