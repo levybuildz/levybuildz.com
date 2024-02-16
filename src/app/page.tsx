@@ -9,8 +9,8 @@ import SplineEmbed from './components/spline-embed'
 
 export default function Page() {
   return (
-    <div className="content-container relative m-auto mb-10 flex min-h-screen flex-col items-center justify-between py-10">
-      <div className="absolute h-full w-full bg-fixed bg-center bg-no-repeat opacity-10 dark:opacity-5 md:hidden">
+    <div className="content-container relative m-auto mb-10 flex min-h-screen flex-col items-center justify-between py-8">
+      <div className="absolute right-0 h-[75%] w-[40%] bg-fixed bg-center bg-no-repeat opacity-10 dark:opacity-5 md:hidden">
         <SplineEmbed />
       </div>
       <div />

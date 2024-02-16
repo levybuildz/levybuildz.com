@@ -17,7 +17,7 @@ export function StartButton() {
       <kbd className="keyboard hidden tracking-normal opacity-90 md:inline">
         Ctrl K
       </kbd>
-      <span className="inline md:hidden">Click</span>
+      <span className="inline md:hidden">Tap</span>
       <span>to start</span>
 
       <ArrowRight
