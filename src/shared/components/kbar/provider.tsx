@@ -335,7 +335,7 @@ export function CustomKBarProvider({ children }: { children: ReactNode }) {
       icon: <ChartLine size="1em" weight="duotone" />,
       perform: () =>
         window.open(
-          'https://analytics.us.umami.is/share/Rzx8PfMz0d4ao0vg/Levy%20Buildz%20Official%20Website',
+          'https://umami.levybuildz.com/share/sfFFT6xds17hczDQ/levybuildz.com',
           '_blank'
         )
     },
