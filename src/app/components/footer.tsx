@@ -34,6 +34,10 @@ export function Footer() {
             <span>Contact</span>
             <ArrowIcon />
           </Link>
+          <Link href="https://tidycal.com/levybuildz" rel="external">
+            <span>Book A Meeting</span>
+            <ArrowIcon />
+          </Link>
         </div>
         <div className="text-center text-sm text-neutral-400 dark:text-neutral-500 md:text-right">
           Copyright © 2024{' '}
