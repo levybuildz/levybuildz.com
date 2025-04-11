@@ -79,7 +79,7 @@ export default function RootLayout({
       <head>
         <Script
           async
-          src="https://us.umami.is/script.js"
+          src="https://umami.levybuildz.com/script.js"
           data-website-id={process.env.UMAMI_WEBSITE_ID}
         />
       </head>

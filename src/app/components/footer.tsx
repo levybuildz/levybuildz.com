@@ -34,8 +34,8 @@ export function Footer() {
             <span>Contact</span>
             <ArrowIcon />
           </Link>
-          <Link href="https://tidycal.com/levybuildz" rel="external">
-            <span>Book A Meeting</span>
+          <Link href="https://l.levybuildz.com/consultation" rel="external">
+            <span>Book A Consultation</span>
             <ArrowIcon />
           </Link>
         </div>
