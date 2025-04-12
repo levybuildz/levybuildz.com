@@ -1,12 +1,6 @@
 import { Metadata } from 'next'
-import {
-  GithubLogo,
-  PencilLine,
-  AppleLogo
-} from '@phosphor-icons/react/dist/ssr'
+import { PencilLine, AppleLogo } from '@phosphor-icons/react/dist/ssr'
 import { Title } from '@/shared/components/title'
-
-import { GithubDashboard } from './components/github-dashboard'
 import { AppleMusicDashboard } from './components/spotify-dashboard'
 import { WritingDashboard } from './components/writing-dashboard'
 import { RenderDate } from './components/date'
