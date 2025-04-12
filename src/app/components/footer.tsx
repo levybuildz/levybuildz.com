@@ -13,6 +13,8 @@ const Link = ({ children, ...props }: ComponentProps<'a'>) => (
 
 const ArrowIcon = () => <ArrowUpRight size="1em" className="text-xs" />
 
+const currentYear = new Date().getFullYear()
+
 export function Footer() {
   return (
     <div className="border-t border-neutral-300/30 py-11 dark:border-neutral-800/20">
@@ -36,7 +38,7 @@ export function Footer() {
           </Link>
         </div>
         <div className="text-center text-sm text-neutral-400 dark:text-neutral-500 md:text-right">
-          Copyright © 2024{' '}
+          Copyright © {currentYear}{' '}
           <Link href="https://l.levybuildz.com/links" rel="external">
             Levy Buildz
           </Link>

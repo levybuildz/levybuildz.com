@@ -335,7 +335,7 @@ export function CustomKBarProvider({ children }: { children: ReactNode }) {
       icon: <ChartLine size="1em" weight="duotone" />,
       perform: () =>
         window.open(
-          "https://analytics.mateusf.com/share/YdWCDBOWOyKv5rRe/Mateus%20Felipe's%20Hideout",
+          'https://umami.levybuildz.com/share/sfFFT6xds17hczDQ/levybuildz.com',
           '_blank'
         )
     },

@@ -1,24 +1,22 @@
 ---
-title: 'Random Strings in Rust'
-description: 'How to generate a random fixed size string in Rust'
-date: '2023-12-11'
-tags: [rust,rand,string,generate]
+title: 'How to self host n8n'
+description: 'How self hos the automation software n8n'
+date: '2025-04-12'
+tags: [n8n,self-hosting,docker,casaos, zimaboard]
 ---
 
-For generate a random string with fixed size in Rust, we can use `Alphanumeric` trait from [rand]() crate:
+Today I learned how to self-host the automation software n8n on a Zimaboard with CasaOS installed.
 
-```rust
-use rand::{distributions::Alphanumeric, Rng}; // 0.8
+1. **Access Your Zimaboard:** Open your web browser and navigate to your casaos dashboard via casaos.local.
+2. **Log In to CasaOS:** Enter your credentials to log in to the CasaOS dashboard.
+3. **Install n8n:** Go to the app store within CasaOS and search for "n8n". Click on the "Install" button.
+4. **Configure n8n:** After installation, set up n8n by entering your n8n account API key that can be made from your n8n oficcial website account dashboard.
+5. **Launch n8n:** Once configured, launch n8n from the CasaOS app dashboard to start using it locally on your device.
 
-fn main() {
-  let s: String = rand::thread_rng()
-    .sample_iter(&Alphanumeric)
-    .take(7)
-    .map(char::from)
-    .collect();
-  println!("{}", s);
-}
+Now you can enjoy running n8n on your Zimaboard with full functionality!
 
-```
-
-ref: https://stackoverflow.com/questions/54275459/how-do-i-create-a-random-string-by-sampling-from-alphanumeric-characters
+## Use cases
+- Automate repetitive tasks like sending emails or posting updates.
+- Integrate with other services for a seamless workflow.
+- Schedule tasks to run at specific times.
+- Integrate Ai and give it access to tools like google search and make your own personal Ai Agent.
